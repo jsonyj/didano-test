@@ -1,0 +1,1419 @@
+[2017-01-18 13:33:03]
+-----parent_list-----
+
+[2017-01-18 13:33:03]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:33:37]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 15252524545
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 15353536363
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 13685900003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 13:33:37]
+-----form-----Array
+(
+    [name] => 帅帅
+    [gender] => 1
+    [birthday] => 2017-01-17
+    [class_id] => 37
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:33:37]
+-----student_id-----1683
+
+[2017-01-18 13:33:37]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 15252524545
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 13:33:37]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 15353536363
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 13:33:37]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 13685900003
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 13:34:25]
+-----parent_list-----
+
+[2017-01-18 13:34:25]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:35:03]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 13685900001
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13685900002
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 13685900003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 13:35:03]
+-----form-----Array
+(
+    [name] => 蒙蒙
+    [gender] => 1
+    [birthday] => 2017-01-03
+    [class_id] => 38
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:35:03]
+-----student_id-----1684
+
+[2017-01-18 13:35:03]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 13685900001
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:35:03]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 13685900002
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:35:03]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 13685900003
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:46:25]
+-----parent_list-----
+
+[2017-01-18 13:46:25]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:46:47]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13685900001
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 13685900002
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 6
+            [relation_title] => 
+            [phone] => 13685900003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 13:46:47]
+-----form-----Array
+(
+    [name] => 啊啊
+    [gender] => 1
+    [birthday] => 2017-01-01
+    [class_id] => 38
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:46:47]
+-----student_id-----1685
+
+[2017-01-18 13:46:47]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 13685900001
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:46:47]
+-----errors-----Array
+(
+    [parent_id] => 请选择学生家长
+    [student_id] => 请选择学生姓名
+)
+
+
+[2017-01-18 13:46:47]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 13685900002
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:46:47]
+-----errors-----Array
+(
+    [parent_id] => 请选择学生家长
+    [student_id] => 请选择学生姓名
+)
+
+
+[2017-01-18 13:46:47]
+-----value-----Array
+(
+    [relation_id] => 6
+    [relation_title] => 
+    [phone] => 13685900003
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:46:47]
+-----errors-----Array
+(
+    [parent_id] => 请选择学生家长
+    [student_id] => 请选择学生姓名
+)
+
+
+[2017-01-18 13:48:58]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 15252524545
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 15353536363
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 13685900003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 13:48:58]
+-----form-----Array
+(
+    [name] => 宝贝
+    [gender] => 2
+    [birthday] => 2017-01-10
+    [class_id] => 35
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:48:58]
+-----student_id-----1686
+
+[2017-01-18 13:48:58]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 15252524545
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 13:48:58]
+-----errors-----Array
+(
+    [name] => 请输入姓名
+)
+
+
+[2017-01-18 13:48:58]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 15353536363
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 13:48:58]
+-----errors-----Array
+(
+    [name] => 请输入姓名
+)
+
+
+[2017-01-18 13:48:58]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 13685900003
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 13:48:58]
+-----errors-----Array
+(
+    [name] => 请输入姓名
+)
+
+
+[2017-01-18 13:51:02]
+-----parent_list-----
+
+[2017-01-18 13:51:02]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:51:13]
+-----parent_list-----Array
+(
+    [0] => 1
+    [1] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 13685900001
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13685900002
+            [id] => 
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 13685900003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 13:51:13]
+-----form-----Array
+(
+    [id] => 1685
+    [name] => 啊啊
+    [gender] => 1
+    [birthday] => 2017-01-01
+    [class_id] => 38
+    [school_id] => 4
+)
+
+
+[2017-01-18 13:51:13]
+-----student_id-----1685
+
+[2017-01-18 13:51:13]
+-----value-----3
+
+[2017-01-18 13:51:13]
+-----errors-----Array
+(
+    [phone] => 该手机号码格式不正确
+)
+
+
+[2017-01-18 13:51:13]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 13685900001
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 13:51:13]
+-----parent_id-----29
+
+[2017-01-18 13:51:15]
+-----parent_list-----
+
+[2017-01-18 13:51:15]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:11:53]
+-----parent_list-----
+
+[2017-01-18 14:11:53]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:13:45]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 13685900011
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13685900012
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 13685900013
+            [id] => 
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 4
+            [relation_title] => 
+            [phone] => 13685900014
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:13:45]
+-----form-----Array
+(
+    [name] => 瞧瞧
+    [gender] => 1
+    [birthday] => 2017-01-02
+    [class_id] => 37
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:13:45]
+-----student_id-----1687
+
+[2017-01-18 14:13:45]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 13685900011
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 14:13:45]
+-----parent_id-----30
+
+[2017-01-18 14:13:46]
+-----parent_list-----
+
+[2017-01-18 14:13:46]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:15:39]
+-----parent_list-----
+
+[2017-01-18 14:15:39]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:16:39]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 18952626361
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 18952626362
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 18952626363
+            [id] => 
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 4
+            [relation_title] => 
+            [phone] => 18952626364
+            [id] => 
+        )
+
+    [4] => Array
+        (
+            [relation_id] => 5
+            [relation_title] => 
+            [phone] => 18952626365
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:16:39]
+-----form-----Array
+(
+    [name] => 五福
+    [gender] => 1
+    [birthday] => 2017-01-10
+    [class_id] => 37
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:16:39]
+-----student_id-----1688
+
+[2017-01-18 14:16:39]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 18952626361
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 14:16:39]
+-----parent_id-----31
+
+[2017-01-18 14:16:41]
+-----parent_list-----
+
+[2017-01-18 14:16:41]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:18:14]
+-----parent_list-----
+
+[2017-01-18 14:18:14]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:19:59]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 18952626360
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 18952626362
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 18952626363
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:19:59]
+-----form-----Array
+(
+    [name] => 敬业福
+    [gender] => 1
+    [birthday] => 2017-01-17
+    [class_id] => 38
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:19:59]
+-----student_id-----1689
+
+[2017-01-18 14:19:59]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 18952626360
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 14:19:59]
+-----parent_id-----32
+
+[2017-01-18 14:19:59]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 18952626362
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 14:19:59]
+-----parent_id-----33
+
+[2017-01-18 14:20:28]
+-----parent_list-----
+
+[2017-01-18 14:20:28]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:20:40]
+-----parent_list-----
+
+[2017-01-18 14:20:40]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:21:08]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 18952626369
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 18952626362
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 18952626363
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:21:08]
+-----form-----Array
+(
+    [name] => 友善福
+    [gender] => 2
+    [birthday] => 2017-01-09
+    [class_id] => 36
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:21:08]
+-----student_id-----1690
+
+[2017-01-18 14:21:08]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 18952626369
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 36
+)
+
+
+[2017-01-18 14:21:08]
+-----parent_id-----34
+
+[2017-01-18 14:21:08]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 18952626362
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 36
+)
+
+
+[2017-01-18 14:21:09]
+-----errors-----Array
+(
+    [phone] => 该手机号码家长已存在
+)
+
+
+[2017-01-18 14:21:09]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 18952626363
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 36
+)
+
+
+[2017-01-18 14:21:09]
+-----parent_id-----35
+
+[2017-01-18 14:31:09]
+-----parent_list-----
+
+[2017-01-18 14:31:09]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:33:36]
+-----parent_list-----
+
+[2017-01-18 14:33:36]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:34:18]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 18700010001
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 18700010002
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 4
+            [relation_title] => 
+            [phone] => 18700010003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:34:18]
+-----form-----Array
+(
+    [name] => 爱国福
+    [gender] => 1
+    [birthday] => 2017-01-12
+    [class_id] => 38
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:34:18]
+-----student_id-----1691
+
+[2017-01-18 14:34:18]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 18700010001
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 14:34:18]
+-----parent_id-----36
+
+[2017-01-18 14:34:18]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 18700010002
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 38
+)
+
+
+[2017-01-18 14:34:18]
+-----parent_id-----37
+
+[2017-01-18 14:35:24]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 18700010001
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 18700010002
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 4
+            [relation_title] => 
+            [phone] => 18700010003
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:35:24]
+-----form-----Array
+(
+    [name] => 爱国福
+    [gender] => 1
+    [birthday] => 2017-01-12
+    [class_id] => 38
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:35:37]
+-----parent_list-----
+
+[2017-01-18 14:35:37]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:36:42]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 15625869514
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 
+            [phone] => 15625869513
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 6
+            [relation_title] => 
+            [phone] => 15625869512
+            [id] => 
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 99
+            [relation_title] => 舅舅
+            [phone] => 15625869511
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:36:42]
+-----form-----Array
+(
+    [name] => 富强福
+    [gender] => 1
+    [birthday] => 2017-01-02
+    [class_id] => 35
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:36:42]
+-----student_id-----1692
+
+[2017-01-18 14:36:42]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 15625869514
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 14:36:42]
+-----parent_id-----38
+
+[2017-01-18 14:36:42]
+-----value-----Array
+(
+    [relation_id] => 3
+    [relation_title] => 
+    [phone] => 15625869513
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 14:36:42]
+-----parent_id-----39
+
+[2017-01-18 14:36:42]
+-----value-----Array
+(
+    [relation_id] => 6
+    [relation_title] => 
+    [phone] => 15625869512
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 14:36:42]
+-----parent_id-----40
+
+[2017-01-18 14:36:42]
+-----value-----Array
+(
+    [relation_id] => 99
+    [relation_title] => 舅舅
+    [phone] => 15625869511
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 35
+)
+
+
+[2017-01-18 14:36:42]
+-----parent_id-----41
+
+[2017-01-18 14:36:44]
+-----parent_list-----
+
+[2017-01-18 14:36:44]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:41:41]
+-----parent_list-----
+
+[2017-01-18 14:41:41]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:44:03]
+-----parent_list-----
+
+[2017-01-18 14:44:03]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:44:57]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 13300221122
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13300112233
+            [id] => 
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 99
+            [relation_title] => 姥姥
+            [phone] => 13344556677
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 14:44:57]
+-----form-----Array
+(
+    [name] => 和谐福
+    [gender] => 1
+    [birthday] => 2017-01-18
+    [class_id] => 37
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 14:44:57]
+-----student_id-----1693
+
+[2017-01-18 14:44:57]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 13300221122
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 14:44:58]
+-----parent_id-----42
+
+[2017-01-18 14:44:58]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 13300112233
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 14:44:58]
+-----parent_id-----43
+
+[2017-01-18 15:04:12]
+-----parent_list-----
+
+[2017-01-18 15:04:12]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 15:04:41]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13300221199
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 6
+            [relation_title] => 
+            [phone] => 13300112288
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 15:04:41]
+-----form-----Array
+(
+    [name] => 和谐福
+    [gender] => 1
+    [birthday] => 2017-01-18
+    [class_id] => 37
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 15:05:10]
+-----parent_list-----Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 
+            [phone] => 13985248653
+            [id] => 
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 1
+            [relation_title] => 
+            [phone] => 13965487952
+            [id] => 
+        )
+
+)
+
+
+[2017-01-18 15:05:10]
+-----form-----Array
+(
+    [name] => 万能福
+    [gender] => 1
+    [birthday] => 2017-01-18
+    [class_id] => 37
+    [status] => 1
+    [school_id] => 4
+)
+
+
+[2017-01-18 15:05:10]
+-----student_id-----1694
+
+[2017-01-18 15:05:10]
+-----value-----Array
+(
+    [relation_id] => 2
+    [relation_title] => 
+    [phone] => 13985248653
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 15:05:10]
+-----parent_id-----44
+
+[2017-01-18 15:05:10]
+-----value-----Array
+(
+    [relation_id] => 1
+    [relation_title] => 
+    [phone] => 13965487952
+    [id] => 
+    [school_id] => 4
+    [type] => 1
+    [status] => 1
+    [class_id] => 37
+)
+
+
+[2017-01-18 15:05:10]
+-----parent_id-----45
+
+[2017-01-18 15:05:12]
+-----parent_list-----
+
+[2017-01-18 15:05:12]
+-----form-----Array
+(
+    [school_id] => 4
+)
+
+

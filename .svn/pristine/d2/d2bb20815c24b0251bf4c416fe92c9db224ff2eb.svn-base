@@ -1,0 +1,61 @@
+<div class="breadcrumbs" id="breadcrumbs">
+  <script type="text/javascript">
+    try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+  </script>
+
+  <ul class="breadcrumb">
+    <li class="active">版本一览</li>
+  </ul><!-- /.breadcrumb -->
+</div>
+
+<div class="page-content">
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- PAGE CONTENT BEGINS -->     
+       <form method="get" name="search_form" class="search-form" id="search-form">
+          <input type="hidden" name="c" value="version" />
+          <input type="hidden" name="a" value="index" />
+        <{include file="../Common/paginate.html"}>
+      </form>
+      
+      <div class='clearfix'></div>
+      <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+
+          <col width="180" />
+          <col width="50" />
+          <col width="80" />
+          <col width="160" />
+          <col width="120" />
+          <col />
+          <col width="70" />
+          <col width="150" />
+          <col width="101" />
+
+          <tr>
+            <th>版本号</th>
+            <th>设备编号</th>
+            <th>系统名称</th>
+            <th>学校名称</th>
+            <th>下载地址</th>
+            <th>版本说明</th>
+          </tr>
+
+          <{foreach from=$school item=version key=key}>        
+            <tr id="row_<{$admin.id}>">
+              <td><{$version.version_no}></td>
+              <td class="text-center">
+                <{$version.version_device_no}>
+              </td>
+              <td><{$version.version_device}></td>
+              <td><{$version.school_name}></td>
+              <td><{$version.version_url}></td>
+              <td><{$version.version_details}></td>
+            </tr>
+          <{/foreach}>
+      </table>
+      </div>
+      <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+</div><!-- /.page-content -->

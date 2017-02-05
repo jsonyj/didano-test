@@ -1,0 +1,146 @@
+[2017-01-11 16:56:18]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小明-
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [34] => Array
+                                        (
+                                            [value] => 34
+                                            [name] => 凹凸曼
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-11 16:56:18]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小红-
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [34] => Array
+                                        (
+                                            [value] => 34
+                                            [name] => 凹凸曼
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+

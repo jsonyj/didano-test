@@ -1,0 +1,334 @@
+[2017-01-18 15:56:18]
+Array
+(
+    [id] => 1692
+    [school_id] => 4
+    [class_id] => 35
+    [name] => 富强福
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 1
+    [birthday] => 2017-01-02
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2017-01-18 14:36:42
+    [updated] => 2017-01-18 14:36:42
+    [deleted] => 0
+)
+
+
+[2017-01-18 15:56:18]
+Array
+(
+    [0] => Array
+        (
+            [id] => 38
+            [phone] => 15625869514
+            [relation_id] => 2
+            [relation_title] => 妈妈
+        )
+
+    [1] => Array
+        (
+            [id] => 39
+            [phone] => 15625869513
+            [relation_id] => 3
+            [relation_title] => 爷爷
+        )
+
+    [2] => Array
+        (
+            [id] => 40
+            [phone] => 15625869512
+            [relation_id] => 6
+            [relation_title] => 外婆
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [phone] => 15625869511
+            [relation_id] => 99
+            [relation_title] => 舅舅
+        )
+
+)
+
+
+[2017-01-18 16:01:03]
+Array
+(
+    [id] => 1695
+    [school_id] => 4
+    [class_id] => 35
+    [name] => 顺手牵羊
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 1
+    [birthday] => 2017-01-10
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2017-01-18 15:34:50
+    [updated] => 2017-01-18 15:34:50
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:01:03]
+Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [phone] => 14747474747
+            [relation_id] => 2
+            [relation_title] => 妈妈
+        )
+
+)
+
+
+[2017-01-18 16:01:18]
+Array
+(
+    [id] => 1695
+    [school_id] => 4
+    [class_id] => 35
+    [name] => 顺手牵羊
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 1
+    [birthday] => 2017-01-10
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2017-01-18 15:34:50
+    [updated] => 2017-01-18 15:34:50
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:01:18]
+Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [phone] => 14747474747
+            [relation_id] => 2
+            [relation_title] => 妈妈
+        )
+
+)
+
+
+[2017-01-18 16:01:22]
+Array
+(
+    [id] => 324
+    [school_id] => 4
+    [class_id] => 18
+    [name] => 徐艺嘉
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 2
+    [birthday] => 2013-02-07
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2016-03-28 14:13:35
+    [updated] => 2016-08-17 19:22:53
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:01:22]
+Array
+(
+)
+
+
+[2017-01-18 16:01:30]
+Array
+(
+    [id] => 324
+    [school_id] => 4
+    [class_id] => 18
+    [name] => 徐艺嘉
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 2
+    [birthday] => 2013-02-07
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2016-03-28 14:13:35
+    [updated] => 2016-08-17 19:22:53
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:01:30]
+Array
+(
+)
+
+
+[2017-01-18 16:01:33]
+Array
+(
+    [id] => 324
+    [school_id] => 4
+    [class_id] => 18
+    [name] => 徐艺嘉
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 2
+    [birthday] => 2013-02-07
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2016-03-28 14:13:35
+    [updated] => 2016-08-17 19:22:53
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:01:33]
+Array
+(
+)
+
+
+[2017-01-18 16:06:09]
+Array
+(
+    [id] => 324
+    [school_id] => 4
+    [class_id] => 18
+    [name] => 徐艺嘉
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 2
+    [birthday] => 2013-02-07
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2016-03-28 14:13:35
+    [updated] => 2016-08-17 19:22:53
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:06:09]
+Array
+(
+)
+
+
+[2017-01-18 16:06:17]
+Array
+(
+    [id] => 1695
+    [school_id] => 4
+    [class_id] => 35
+    [name] => 顺手牵羊
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 1
+    [birthday] => 2017-01-10
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2017-01-18 15:34:50
+    [updated] => 2017-01-18 15:34:50
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:06:17]
+Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [phone] => 14747474747
+            [relation_id] => 2
+            [relation_title] => 妈妈
+        )
+
+)
+
+
+[2017-01-18 16:10:22]
+Array
+(
+    [id] => 324
+    [school_id] => 4
+    [class_id] => 18
+    [name] => 徐艺嘉
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 2
+    [birthday] => 2013-02-07
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2016-03-28 14:13:35
+    [updated] => 2016-08-17 19:22:53
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:10:22]
+Array
+(
+)
+
+
+[2017-01-18 16:10:29]
+Array
+(
+    [id] => 1695
+    [school_id] => 4
+    [class_id] => 35
+    [name] => 顺手牵羊
+    [nickname] => 
+    [hobby] => 
+    [dream_id] => 3
+    [comment] => 
+    [gender] => 1
+    [birthday] => 2017-01-10
+    [device_registered] => 0
+    [status] => 1
+    [created] => 2017-01-18 15:34:50
+    [updated] => 2017-01-18 15:34:50
+    [deleted] => 0
+)
+
+
+[2017-01-18 16:10:29]
+Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [phone] => 14747474747
+            [relation_id] => 2
+            [relation_title] => 妈妈
+        )
+
+)
+
+

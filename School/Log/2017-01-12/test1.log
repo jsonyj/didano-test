@@ -1,0 +1,810 @@
+[2017-01-12 10:33:53]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-妈妈
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:33:53]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-爸爸
+                            [keys] => Array
+                                (
+                                    [0] => 小米-妈妈
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:35:45]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-妈妈
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:35:45]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-爸爸
+                            [keys] => Array
+                                (
+                                    [0] => 小米-妈妈
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:36:30]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-妈妈
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:36:30]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-爸爸
+                            [keys] => Array
+                                (
+                                    [0] => 小米-妈妈
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:37:19]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-妈妈
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:37:19]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-爸爸
+                            [keys] => Array
+                                (
+                                    [0] => 小米-妈妈
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:37:42]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-妈妈
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:37:42]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-爸爸
+                            [keys] => Array
+                                (
+                                    [0] => 小米-妈妈
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:39:17]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-妈妈
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-12 10:39:17]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 小米-爸爸
+                            [keys] => Array
+                                (
+                                    [0] => 小米-妈妈
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+

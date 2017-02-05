@@ -1,0 +1,201 @@
+[2017-01-18 17:53:46]
+
+
+[2017-01-18 17:53:46]
+Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:53:49]
+Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 妈妈
+            [phone] => 15625869514
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 爷爷
+            [phone] => 15625869513
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 6
+            [relation_title] => 外婆
+            [phone] => 15625869512
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 99
+            [relation_title] => 舅舅
+            [phone] => 15625869511
+        )
+
+)
+
+
+[2017-01-18 17:53:49]
+Array
+(
+    [id] => 1692
+    [name] => 富强福
+    [gender] => 1
+    [birthday] => 2017-01-02
+    [class_id] => 35
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:53:50]
+
+
+[2017-01-18 17:53:50]
+Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:54:33]
+Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 妈妈
+            [phone] => 15625869599
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 爷爷
+            [phone] => 15625869588
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 6
+            [relation_title] => 外婆
+            [phone] => 15625869577
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 99
+            [relation_title] => 舅舅
+            [phone] => 15625869566
+        )
+
+)
+
+
+[2017-01-18 17:54:33]
+Array
+(
+    [id] => 1692
+    [name] => 富强福
+    [gender] => 1
+    [birthday] => 2017-01-02
+    [class_id] => 35
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:54:35]
+
+
+[2017-01-18 17:54:35]
+Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:58:50]
+
+
+[2017-01-18 17:58:50]
+Array
+(
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:59:10]
+Array
+(
+    [0] => Array
+        (
+            [relation_id] => 2
+            [relation_title] => 妈妈
+            [phone] => 15625869114
+        )
+
+    [1] => Array
+        (
+            [relation_id] => 3
+            [relation_title] => 爷爷
+            [phone] => 15625869213
+        )
+
+    [2] => Array
+        (
+            [relation_id] => 6
+            [relation_title] => 外婆
+            [phone] => 15625869312
+        )
+
+    [3] => Array
+        (
+            [relation_id] => 99
+            [relation_title] => 舅舅
+            [phone] => 15625869411
+        )
+
+    [4] => Array
+        (
+            [relation_id] => 99
+            [relation_title] => 舅舅
+            [phone] => 15625869666
+        )
+
+)
+
+
+[2017-01-18 17:59:10]
+Array
+(
+    [id] => 1692
+    [name] => 富强福
+    [gender] => 1
+    [birthday] => 2017-01-02
+    [class_id] => 35
+    [school_id] => 4
+)
+
+
+[2017-01-18 17:59:10]
+1
+
+[2017-01-18 17:59:11]
+1
+
+[2017-01-18 17:59:12]
+
+
+[2017-01-18 17:59:12]
+Array
+(
+    [school_id] => 4
+)
+
+

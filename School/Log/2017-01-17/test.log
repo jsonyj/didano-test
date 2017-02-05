@@ -1,0 +1,2510 @@
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 相同学生相同家长重复
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => *班级-*生日
+                                    [1] => *班级-*电话号码
+                                    [2] => *班级-电话号码
+                                    [3] => *班级-电话号码
+                                    [4] => *班级-电话号码
+                                    [5] => *班级-电话号码
+                                    [6] => *班级-电话号码
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_gender] => 请输入正确的性别
+    [student_birthday] => 请输入正确的学生生日
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 宝贝班-36526
+                                    [1] => 宝贝班-138xxxxxxx
+                                    [2] => 宝贝班-186xxxxxxx
+                                    [3] => 宝贝班-159xxxxxx
+                                    [4] => 宝贝班-139xxxxxx
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_gender] => 请输入正确的性别
+    [student_birthday] => 请输入正确的学生生日
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:48]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => 
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:02:49]
+Array
+(
+    [student_name] => 请输入学生姓名
+    [student_gender] => 请输入学生性别
+)
+
+
+[2017-01-17 15:04:43]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小明-妈妈
+                                    [1] => 小明-妈妈
+                                    [2] => 小明-妈妈
+                                    [3] => 小明-妈妈
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:04:43]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小红-奶奶
+                                    [1] => 小红-奶奶
+                                    [2] => 小红-奶奶
+                                    [3] => 小红-奶奶
+                                    [4] => 小红-奶奶
+                                    [5] => 小红-奶奶
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:29:27]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小川-爸爸
+                                    [1] => 小川-妈妈
+                                    [2] => 小川-爷爷
+                                    [3] => 小川-奶奶
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:29:27]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小刚-爸爸
+                                    [1] => 小刚-妈妈
+                                    [2] => 小刚-爷爷
+                                    [3] => 小刚-奶奶
+                                    [4] => 小刚-外公
+                                    [5] => 小刚-外婆
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 15:29:30]
+Array
+(
+    [2] => Array
+        (
+            [class_name] => 小诺1班
+            [student_name] => 小川
+            [student_gender] => 男
+            [student_birthday] => 2000-01-01
+            [parent_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 爸爸
+                            [1] => 13834549521
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => 妈妈
+                            [1] => 13834549522
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => 爷爷
+                            [1] => 13834549523
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => 奶奶
+                            [1] => 13834549524
+                        )
+
+                    [4] => Array
+                        (
+                            [0] => 
+                            [1] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [0] => 
+                            [1] => 
+                        )
+
+                )
+
+            [school_id] => 4
+        )
+
+    [3] => Array
+        (
+            [class_name] => 蝙蝠侠
+            [student_name] => 小刚
+            [student_gender] => 男
+            [student_birthday] => 2001-11-12
+            [parent_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 爸爸
+                            [1] => 15444256321
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => 妈妈
+                            [1] => 15444256322
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => 爷爷
+                            [1] => 15444256323
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => 奶奶
+                            [1] => 15444256324
+                        )
+
+                    [4] => Array
+                        (
+                            [0] => 外公
+                            [1] => 15444256325
+                        )
+
+                    [5] => Array
+                        (
+                            [0] => 外婆
+                            [1] => 15444256326
+                        )
+
+                )
+
+            [school_id] => 4
+        )
+
+)
+
+
+[2017-01-17 16:32:28]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小川-爸爸
+                                    [1] => 小川-妈妈
+                                    [2] => 小川-爷爷
+                                    [3] => 小川-奶奶
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 16:32:28]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小刚-爸爸
+                                    [1] => 小刚-妈妈
+                                    [2] => 小刚-爷爷
+                                    [3] => 小刚-奶奶
+                                    [4] => 小刚-外公
+                                    [5] => 小刚-外婆
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 16:32:30]
+Array
+(
+    [2] => Array
+        (
+            [class_name] => 小诺1班
+            [student_name] => 小川
+            [student_gender] => 男
+            [student_birthday] => 2000-01-01
+            [parent_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 爸爸
+                            [1] => 13834549521
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => 妈妈
+                            [1] => 13834549522
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => 爷爷
+                            [1] => 13834549523
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => 奶奶
+                            [1] => 13834549524
+                        )
+
+                    [4] => Array
+                        (
+                            [0] => 
+                            [1] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [0] => 
+                            [1] => 
+                        )
+
+                )
+
+            [school_id] => 4
+        )
+
+    [3] => Array
+        (
+            [class_name] => 蝙蝠侠
+            [student_name] => 小刚
+            [student_gender] => 男
+            [student_birthday] => 2001-11-12
+            [parent_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 爸爸
+                            [1] => 15444256321
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => 妈妈
+                            [1] => 15444256322
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => 爷爷
+                            [1] => 15444256323
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => 奶奶
+                            [1] => 15444256324
+                        )
+
+                    [4] => Array
+                        (
+                            [0] => 外公
+                            [1] => 15444256325
+                        )
+
+                    [5] => Array
+                        (
+                            [0] => 外婆
+                            [1] => 15444256326
+                        )
+
+                )
+
+            [school_id] => 4
+        )
+
+)
+
+
+[2017-01-17 16:36:24]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小川-爸爸
+                                    [1] => 小川-妈妈
+                                    [2] => 小川-爷爷
+                                    [3] => 小川-奶奶
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 16:36:24]
+Array
+(
+    [student_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生姓名
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyNotExisted
+                    [1] => 相同学生相同家长重复
+                    [2] => Array
+                        (
+                            [key] => Array
+                                (
+                                    [0] => 小刚-爸爸
+                                    [1] => 小刚-妈妈
+                                    [2] => 小刚-爷爷
+                                    [3] => 小刚-奶奶
+                                    [4] => 小刚-外公
+                                    [5] => 小刚-外婆
+                                )
+
+                            [keys] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_gender] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isNotNull
+                    [1] => 请输入学生性别
+                )
+
+            [1] => Array
+                (
+                    [0] => isKeyExisted
+                    [1] => 请输入正确的性别
+                    [2] => Array
+                        (
+                            [keys] => Array
+                                (
+                                    [0] => 男
+                                    [1] => 女
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [student_birthday] => Array
+        (
+            [0] => Array
+                (
+                    [0] => isDate
+                    [1] => 请输入正确的学生生日
+                )
+
+        )
+
+)
+
+
+[2017-01-17 16:36:26]
+Array
+(
+    [2] => Array
+        (
+            [class_name] => 小诺1班
+            [student_name] => 小川
+            [student_gender] => 男
+            [student_birthday] => 2000-01-01
+            [parent_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 爸爸
+                            [1] => 13834549521
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => 妈妈
+                            [1] => 13834549522
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => 爷爷
+                            [1] => 13834549523
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => 奶奶
+                            [1] => 13834549524
+                        )
+
+                    [4] => Array
+                        (
+                            [0] => 
+                            [1] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [0] => 
+                            [1] => 
+                        )
+
+                )
+
+            [school_id] => 4
+        )
+
+    [3] => Array
+        (
+            [class_name] => 蝙蝠侠
+            [student_name] => 小刚
+            [student_gender] => 男
+            [student_birthday] => 2001-11-12
+            [parent_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 爸爸
+                            [1] => 15444256321
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => 妈妈
+                            [1] => 15444256322
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => 爷爷
+                            [1] => 15444256323
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => 奶奶
+                            [1] => 15444256324
+                        )
+
+                    [4] => Array
+                        (
+                            [0] => 外公
+                            [1] => 15444256325
+                        )
+
+                    [5] => Array
+                        (
+                            [0] => 外婆
+                            [1] => 15444256326
+                        )
+
+                )
+
+            [school_id] => 4
+        )
+
+)
+
+

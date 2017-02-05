@@ -1,0 +1,107 @@
+<?php
+
+class VersionController extends AppController {
+
+    var $versionModel = null;
+
+    function VersionController() {
+        $this->AppController();
+        $this->versionModel = $this->getModel('Version');
+    }
+    
+// 上传文件
+    
+    function indexAction(){
+        $upload_path = "http://www.didano.cn/res";
+        // 获取版本信息列表
+        $getVersionList = $this->versionModel -> getVersionList();
+        foreach ($getVersionList as $key => $value) {
+            // 遍历版本信息，version_url 重新赋值
+            $getVersionList[$key]['version_url' ] = $upload_path . DS . $value['version_url'];
+            // 遍历版本信息，version_device 重新赋值
+            switch ($value['version_device' ]) {
+                case '1':
+                    $getVersionList[$key]['version_device' ] = "robot_android";
+                    break;
+                case '2':
+                    $getVersionList[$key]['version_device' ] = "robot_linux";
+                    break;
+                case '3':
+                    $getVersionList[$key]['version_device' ] = "gates_linux";
+                    break;
+                
+                default:
+                    $getVersionList[$key]['version_device' ] = "目标系统";
+                    break;
+            }
+            $reques =array();
+            // 判断设备编号
+            if($value['version_device_no'] == 0){
+                // 当设备编号为0，获取所有学校信息
+                $getSchoolList = $this->versionModel -> getSchoolList();
+                foreach ($getSchoolList as $key1 => $value1) {
+                    // 遍历学校信息 赋值给reques
+                    $getVersionList[$key]['school_name' ] = $value1['title' ];
+                    $schoolVersionList[] = $getVersionList[$key];
+                }
+            }
+            else
+            {
+                $string = $value['version_device_no'];
+                $pattern = '(,)';
+                if(preg_match($pattern,$string)){
+                    $array=explode(',',$value['version_device_no']); 
+                    foreach ($array as $key2 => $value2) {
+                        $getDeviceList = $this->versionModel -> getDeviceList($value2);
+                        $getVersionList[$key]['school_name' ] = $getDeviceList['school_name' ];
+                        $schoolVersionList[] = $getVersionList[$key];
+                    }
+                }
+                else{
+                    $getDeviceList = $this->versionModel -> getDeviceList($value['version_device_no']);
+                    $getVersionList[$key]['school_name' ] = $getDeviceList['school_name' ];
+                    $schoolVersionList[] = $getVersionList[$key];
+                }
+            }
+        }
+        // var_dump($schoolVersionList);
+        $this->view->assign('school', $schoolVersionList);
+        $this->view->layout();
+    }
+
+    function inputAction(){
+        $request = $this->post('form');
+        if ($this->isComplete()) {
+            $upload_path = APP_RESOURCE_ROOT . 'upload/version/';
+            $newFile = $upload_path . $_FILES["file"]["name"];
+            if(!is_dir($upload_path))
+                {
+                    mkdir($upload_path,0777,true);
+                }
+            if (file_exists($upload_path . $_FILES["file"]["name"]))
+            {
+                $newFile = $upload_path . $_FILES["file"]["name"] . date('Ymdhis');
+              // $this->redirect("?c=version&a=input", true, '上传失败');
+              // exit;
+            }
+            else
+            {
+              move_uploaded_file($_FILES["file"]["tmp_name"],$newFile);
+              $version_url = 'upload/version/' . $_FILES["file"]["name"];
+                $form = array(
+                    "version_device" => $request['version_device'],
+                    "version_device_no" => $request['version_device_no'],
+                    "version_no" => $request['version_no'],
+                    "version_url" => $version_url,
+                    "version_details" => $request['version_details'],
+                    );
+                if($this->versionModel -> insertVerion($form)){
+                    $this->redirect("?c=version&a=index", true, '上传成功');
+                    exit;
+                }
+            }
+        }
+        $this->view->layout();
+    }
+
+}

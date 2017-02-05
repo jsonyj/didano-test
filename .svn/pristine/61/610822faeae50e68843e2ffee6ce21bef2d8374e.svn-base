@@ -1,0 +1,160 @@
+<?php
+
+class SchoolModel extends AppModel {
+
+    function getSchoolList($sh, $all = false) {
+        $this->setSearch($sh);
+        $sql = "
+            SELECT * FROM tb_school
+            WHERE deleted = 0";
+        
+        $this->where($sql, 'title', 'title', 'lk');
+        $this->where($sql, 'address', 'address', 'lk');
+        $this->where($sql, 'phone', 'phone', 'lk');
+        $this->where($sql, 'key_rel_status', 'key_rel_status', 'in');
+        
+        if ($sh['key_new_date']) {
+            $this->where($sql, "DATE_FORMAT(key_new_time, '%Y-%m-%d')", 'key_new_date', '<');
+        }
+        
+        if ($all) {
+            $this->order($sql, 'order.default');
+            $rs = $this->getAll($sql);
+        }
+        else {
+            $this->paging('paging.default');
+            $this->order($sql, 'order.default');
+            $rs = $this->paginate($sql);
+        }
+        
+        return $rs;
+    }
+
+    function getSchoolOptionList() {
+        $this->setSearch($sh);
+        $sql = "
+            SELECT id AS value, title AS name FROM tb_school
+            WHERE deleted = 0 AND status = 1";
+
+        $this->order($sql, 'order.default');
+        $rs = $this->getAll($sql);
+
+        $schoolList = array();
+        foreach($rs as $v) {
+            $schoolList[$v['value']] = $v;
+        }
+
+        return $schoolList;
+    }
+
+    function getSchool($id) {
+        $this->escape($id);
+        $sql = "
+            SELECT * FROM tb_school
+            WHERE id = '{$id}' AND deleted = 0
+            LIMIT 1
+        ";
+        
+        return $this->getOne($sql);
+    }
+    
+    function validSaveSchool($form, &$errors) {
+        $validator = $this->load(APP_CORE, 'AppValidator');
+        $config = array(
+            'title' => array(
+                array('isNotNull', '请输入名称'),
+            ),
+            'phone' => array(
+                array('isNotNull', '请输入电话'),
+            ),
+            'address' => array(
+                array('isNotNull', '请输入地址'),
+            ),
+            'admin_login' => array(
+                array('isNotNull', '请输入超级管理员名称'),
+            )
+        );
+
+        if(!$form['id']) {
+            $config['admin_password'] = array(
+                array('isNotNull', '请输入超级管理员密码')
+            );
+        }
+
+        if($form['admin_password']) {
+            $config['admin_password_confirm'] = array(
+              array('isSame', '超级管理员密码不一致，请重新输入', array('compare' => 'admin_password')),
+            );
+        }
+        
+        if (!$validator->valid($config, $form)) {
+            $errors = $this->langs($validator->getError());
+            return false;
+        }
+
+        return true;
+    }
+    
+    function saveSchool($form) {
+        $table = 'tb_school';
+        $data = array(
+            'title' => $form['title'],
+            'phone' => $form['phone'],
+            'address' => $form['address'],
+            'status' => $form['status'] ? true : false,
+        );
+
+        if ($form['id'] > 0) {
+            $whereId = $form['id'];
+            $this->escape($whereId);
+            $whereSql = "id = '{$whereId}'";
+            $this->Update($table, $data, $whereSql);
+            return $form['id'];
+        }
+        else {
+            $data['key'] = md5($school_id . time());
+            $data['key_new'] = $data['key'];
+            $data['key_new_time'] = NOW;
+            $data['key_active_time'] = NOW;
+            $data['created'] = NOW;
+            return $this->Insert($table, $data);
+        }
+    }
+    
+    function deleteSchool($id) {
+        $this->escape($id);
+        $data = array('deleted' => 1);
+        $where = "id = '{$id}'";
+        return $this->Update('tb_school', $data, $where);
+    }
+    
+    /**
+     * @desc 更新学校KEY
+     * @desc KEY值为md5(学校ID+时间戳)
+     * @author lxs
+     */
+    function saveSchoolKey($school_id) {
+        $this->escape($school_id);
+        
+        $data = array(
+            'key_new' => md5($school_id . time()),
+            'key_new_time' => NOW,
+        );
+        $where = "id = '{$school_id}'";
+        
+        return $this->Update('tb_school', $data, $where);
+    }
+    
+    /**
+     * @desc 修改数据通用方法
+     * @author lxs
+     */
+    function saveSchoolData($id, $data) {
+        $this->escape($id);
+        $where = "id = '{$id}'";
+        return $this->Update('tb_school', $data, $where);
+    }
+    
+}
+
+?>

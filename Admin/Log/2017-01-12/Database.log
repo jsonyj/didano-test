@@ -1,0 +1,147 @@
+[2017-01-12 09:58:31]
+
+            SELECT * FROM tb_admin 
+            WHERE login = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' AND deleted = 0
+            LIMIT 1
+        
+
+[2017-01-12 09:58:42]
+SELECT COUNT(*) FROM tb_student
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 
+
+[2017-01-12 09:58:42]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title
+            FROM tb_student
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 LIMIT 0,10
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '1668'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '641'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '642'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '643'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '644'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '645'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '646'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '647'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '648'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title
+            FROM tb_school_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_school_parent.id AND tb_student_parent.student_id = '649'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_school_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_school_parent.created DESC 
+
+[2017-01-12 09:58:43]
+
+            SELECT id AS value, title AS name FROM tb_school
+            WHERE deleted = 0 AND status = 1 ORDER BY created DESC 
+
+[2017-01-12 16:43:31]
+
+            SELECT * FROM tb_admin 
+            WHERE login = 's9ft' AND password = '21232f297a57a5a743894a0e4a801fc3' AND deleted = 0
+            LIMIT 1
+        
+
+[2017-01-12 16:43:34]
+
+            SELECT * FROM tb_admin 
+            WHERE login = 's9ft' AND password = '21232f297a57a5a743894a0e4a801fc3' AND deleted = 0
+            LIMIT 1
+        
+
+[2017-01-12 16:43:37]
+
+            SELECT * FROM tb_admin 
+            WHERE login = 's9ft' AND password = '21232f297a57a5a743894a0e4a801fc3' AND deleted = 0
+            LIMIT 1
+        
+

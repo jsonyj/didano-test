@@ -1,0 +1,43 @@
+<?php
+
+class VersionModel extends AppModel {
+// 获取各个学校当前版本号
+	function getVersionList(){
+        
+        $sql = "
+            SELECT * FROM tb_version ORDER BY tb_version.id DESC
+            ";
+        
+        return $this->getAll($sql);
+	}
+// 上传版本，保存信息
+	function insertVerion($form){
+		$table = 'tb_version';
+		$data = array(
+                "version_device" => $form['version_device'],
+                "version_device_no" => $form['version_device_no'],
+                "version_no" => $form['version_no'],
+                "version_url" => $form['version_url'],
+                "version_details" => $form['version_details'],
+                );
+		return $this->Insert($table, $data);
+	}
+// 获取学校信息
+	function getSchoolList(){
+		$sql = "
+            SELECT * FROM tb_school ORDER BY tb_school.id DESC
+            ";
+        
+        return $this->getAll($sql);
+	}
+// 获取设备信息及学校名称
+	function getDeviceList($device_no){
+		$sql = "
+            SELECT tb_device.*,tb_school.title AS school_name FROM tb_device AS tb_device
+			LEFT JOIN tb_school AS tb_school ON tb_device.school_id = tb_school.id
+            WHERE tb_device.no = {$device_no} ORDER BY tb_device.id DESC
+            ";
+        
+        return $this->getOne($sql);
+	}
+}

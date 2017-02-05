@@ -1,0 +1,153 @@
+<?php
+
+class VersionController extends AppController {
+
+    var $versionModel = null;
+
+    function VersionController() {
+        $this->AppController();
+        $this->versionModel = $this->getModel('Version');
+    }
+// 各个学校历史版本     
+    function indexAction(){
+        $upload_path = "http://" . $_SERVER['HTTP_HOST'] . "/res";
+        // 获取版本信息列表
+        $getVersionList = $this->versionModel -> getVersionList();
+        foreach ($getVersionList as $key => $value) {
+            // 遍历版本信息，version_url 重新赋值
+            $getVersionList[$key]['version_url' ] = $upload_path . DS . $value['version_url'];
+            // 遍历版本信息，version_device 重新赋值
+            switch ($value['version_device' ]) {
+                case '1':
+                    $getVersionList[$key]['version_device' ] = "robot_android";
+                    break;
+                case '2':
+                    $getVersionList[$key]['version_device' ] = "robot_linux";
+                    break;
+                case '3':
+                    $getVersionList[$key]['version_device' ] = "gates_linux";
+                    break;
+                
+                default:
+                    $getVersionList[$key]['version_device' ] = "目标系统";
+                    break;
+            }
+            $reques =array();
+            // 判断设备编号
+            if($value['version_device_no'] == 0){
+                // 当设备编号为0，获取所有学校信息
+                $getSchoolList = $this->versionModel -> getSchoolList();
+                foreach ($getSchoolList as $key1 => $value1) {
+                    // 遍历学校信息 赋值给reques
+                    $getVersionList[$key]['school_name' ] = $value1['title' ];
+                    $schoolVersionList[] = $getVersionList[$key];
+                }
+            }
+            else
+            {
+                $string = $value['version_device_no'];
+                $pattern = '(,)';
+                if(preg_match($pattern,$string)){
+                    $array=explode(',',$value['version_device_no']); 
+                    foreach ($array as $key2 => $value2) {
+                        $getDeviceList = $this->versionModel -> getDeviceList($value2);
+                        $getVersionList[$key]['school_name' ] = $getDeviceList['school_name' ];
+                        $schoolVersionList[] = $getVersionList[$key];
+                    }
+                }
+                else{
+                    $getDeviceList = $this->versionModel -> getDeviceList($value['version_device_no']);
+                    $getVersionList[$key]['school_name' ] = $getDeviceList['school_name' ];
+                    $schoolVersionList[] = $getVersionList[$key];
+                }
+            }
+        }
+        $request = $this->get();
+        $countpage=ceil(count($schoolVersionList)/$request['count']);
+        $show_array = $this -> show_array($countpage);
+        $this->view->assign('paging', $show_array);
+        $pagedata = $this -> page_array($request['count'],$request['page'],$schoolVersionList,0);
+        // $pagedata = $this -> page_array(20,'',$schoolVersionList,0);
+        $this->view->assign('school', $pagedata);
+        $this->view->layout();
+    }
+// 新增上传，编辑上传
+    function inputAction(){
+        $id = $this->get('id');
+        $request = $this->post('form');
+        if ($this->isComplete()) {
+            $upload_path = APP_RESOURCE_ROOT . 'upload/version/';
+            $newFileName = $_FILES["file"]["name"];
+            $newFile = $upload_path . $newFileName;
+            if(!is_dir($upload_path))
+                {
+                    mkdir($upload_path,0777,true);
+                }
+            if (file_exists($newFile))
+            {
+                $newFileName = date('Ymdhis') . $_FILES["file"]["name"] ;
+                $newFile = $upload_path . $newFileName;
+            }
+            move_uploaded_file($_FILES["file"]["tmp_name"],$newFile);
+            $version_url = 'upload/version/' . $newFileName;
+            $form = array(
+                "version_device" => $request['version_device'],
+                "version_device_no" => $request['version_device_no'],
+                "version_no" => $request['version_no'],
+                "version_url" => $version_url,
+                "version_details" => $request['version_details'],
+                );
+            if ($id > 0) {
+                $form['id'] = $id;
+                $this->view->assign('form', $form);
+                if($this->versionModel -> insertVerion($form)){
+                    $this->redirect("?c=version&a=index", true, '上传成功');
+                    exit;
+                }
+            }else{
+                if($this->versionModel -> insertVerion($form)){
+                    $this->redirect("?c=version&a=index", true, '上传成功');
+                    exit;
+                }
+            }
+        }
+        $this->view->layout();
+    }
+// 删除
+    function deleteAction(){
+        $id = $this->get('id');
+        $this->versionModel->deteleVersion($id);
+        $this->redirect("?c=version&a=index", true, '删除成功');
+    }
+    function page_array($count,$page,$array,$order){
+        global $countpage; #定全局变量
+        $page=(empty($page))?'1':$page; #判断当前页面是否为空 如果为空就表示为第一页面 
+            $start=($page-1)*$count; #计算每次分页的开始位置
+        if($order==1){
+           $array=array_reverse($array);
+        }  
+        $totals=count($array); 
+        $countpage=ceil($totals/$count); #计算总页面数
+        $pagedata=array();
+        $pagedata=array_slice($array,$start,$count);
+        return $pagedata; #返回查询数据
+    }
+    function show_array($countpage){
+        $page=empty($_GET['page'])?1:$_GET['page'];
+        if($page > 1){
+            $uppage=$page-1;
+        }else{
+            $uppage=1;
+        }
+        if($page < $countpage){
+            $nextpage=$page+1;
+        }else{
+            $nextpage=$countpage;
+        }
+         $totals=count($array); 
+         $url = '?' . $_SERVER['QUERY_STRING' ];
+         return array('totals'=>$totals,'nextpage'=>$nextpage,'nextpage'=>$nextpage,'url'=>$url);
+    }
+
+
+}

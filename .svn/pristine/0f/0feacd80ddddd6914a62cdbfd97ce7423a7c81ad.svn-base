@@ -1,0 +1,60 @@
+<div class="breadcrumbs" id="breadcrumbs">
+  <script type="text/javascript">
+    try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+  </script>
+
+  <ul class="breadcrumb">
+    <li>
+      <a href="?c=branch&a=index">群一览</a>
+    </li>
+    <li class="active"><{if $smarty.get.id}>编辑<{else}>新增<{/if}>群</li>
+  </ul><!-- /.breadcrumb -->
+
+</div>
+
+<div class="page-content">
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- PAGE CONTENT BEGINS -->
+
+        <form name="data_form" method="post" enctype="multipart/form-data">
+          <{if $form.id}><input type="hidden" name="form[id]" value="<{$form.id|escape}>" /><{/if}>
+          <table class="table table-bordered table-form">
+              <tr>
+                <th class="must">群名称：</th>
+                <td>
+                  <input type="text" name="form[branch_name]" size="30" class="form-control text" value="<{$form.name|escape}>"/>
+                </td>
+              </tr>
+              <tr>
+                <th class="must">设备类型：</th>
+                <td>
+                  <select  name="form[device_type]" style='width:330px;'>
+                    <option value ="1">robot_android</option>
+                    <option value ="2">robot_linux</option>
+                    <option value ="3">gates_linux</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th class="must">群说明：</th>
+                <td>
+                  <input type="text" name="form[branch_des]" size="30" class="form-control text" value="<{$form.name|escape}>"/>
+                </td>
+              </tr>
+              <tr class="option">
+                <th></th>
+                <td>
+                  <input type="submit" class="btn btn-primary" name="complete" value="上传" />
+                </td>
+              </tr>
+          </table>
+      </form>
+
+      <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+</div><!-- /.page-content -->
+
+<script type="text/javascript">
+</script>

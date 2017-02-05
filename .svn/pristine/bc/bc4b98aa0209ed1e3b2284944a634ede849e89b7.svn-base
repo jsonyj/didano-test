@@ -1,0 +1,121 @@
+<?php
+
+class StaffController extends AppController {
+
+    var $staffModel = null;
+    var $classModel = null;
+
+    function StaffController() {
+        $this->AppController();
+        $this->staffModel = $this->getModel('Staff');
+        $this->classModel = $this->getModel('Class');
+    }
+
+    /**
+     * @desc 职工一览
+     * @author ly
+     */
+    function indexAction() {
+        $sh = $this->get('sh');
+        // var_dump($sh);
+        $user = $this->getSession(SESSION_USER);
+
+        $staffList = $this->staffModel->getStaffList($user['school_id'], $sh);
+        $this->view->assign('paging', $this->staffModel->paging);
+        
+        $this->view->assign('staffList', $staffList);
+        $this->view->assign('sh', $sh);
+        $this->view->layout();
+    }
+
+    /**
+     * @desc 职工信息编辑
+     * @author ly
+     */
+    function inputAction() {
+        $user = $this->getSession(SESSION_USER);
+        $form = $this->post('form');
+        $id = $this->get('id');
+        
+        if ($this->isComplete()) {
+            $form['id'] = $id;
+            $form['school_id'] = $user['school_id'];
+            
+            if ($this->staffModel->validStaff($form, $errors)) {
+                
+                if ($rs = $this->staffModel->saveStaff($form)) {
+                    if($form['type'] == ACT_SCHOOL_TEACHER){
+                        if($id){
+                            $staff = $this->staffModel->getStaff($id);
+                            $staffClass['id'] = $staff['staff_class_id'];
+                        }
+                        $staffClass['school_id'] = $user['school_id'];
+                        $staffClass['class_id'] = $form['class_id'];
+                        $staffClass['staff_id'] = $rs;
+                        
+                        $this->staffModel->saveStaffClass($staffClass);
+                    }
+                    
+                    if($id && $form['type'] != ACT_SCHOOL_TEACHER){
+                        $staff = $this->staffModel->getStaff($id);
+                        $this->staffModel->deleteStaffClass($staff['staff_class_id']);
+                    }
+                    
+                    $this->redirect("?c=staff&a=input&pc=staff&pa=index&id={$rs}", true, '保存成功');
+                    exit;
+                }
+                $this->redirect("?c=staff&a=input&pc=staff&pa=index&id={$id}", true, '保存失败');
+                exit;
+            }
+            else {
+                $this->view->assign('errors', $errors);
+                $this->view->assign('form', $form);
+            }
+        } else {
+            
+            if($id){
+                $form = $this->staffModel->getStaff($id);
+                if($id && empty($form)) {
+                    $this->redirect("?c=staff&a=index", true, $this->lang('ID不存在'));
+                    exit();
+                }
+                $this->view->assign('form', $form);
+            }
+        }
+        
+        //获取所有签到类型
+        $signTypeList = $this->staffModel->getSignTypeList();
+        $sign_type = array();
+        foreach ($signTypeList as $value) {
+            $sign_type[] = array('name' => $value['title']. '（' . date('H:i', strtotime($value['in_time'])) . '~' . date('H:i', strtotime($value['out_time'])) . '）', 'value' => $value['id']);
+        }
+        $this->view->assign('sign_type', $sign_type);
+        
+        //获取所有班级
+        $classList = $this->classModel->getAllClassList($user['school_id']);
+
+        $class = array();
+        foreach ($classList as $value) {
+            $class[] = array('name' => $value['title'], 'value' => $value['id']);
+        }
+        $this->view->assign('class', $class);
+        $this->view->layout();
+    }
+    
+    /**
+     * @desc 删除职工信息
+     * @author ly
+     */
+    function deleteAction() {
+        $id = $this->get('id');
+        $staff = $this->staffModel->getStaff($id);
+        $this->staffModel->deleteStaff($id);
+        $this->staffModel->deleteStaffClass($staff['staff_class_id']);
+        $this->redirect("?c=staff&a=index", true, '删除成功');
+    }
+
+   
+
+}
+
+?>

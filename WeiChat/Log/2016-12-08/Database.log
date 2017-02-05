@@ -1,0 +1,1121 @@
+[2016-12-08 17:08:27]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:27]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:27]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:27]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:28]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:28]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:28]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:28]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:28]
+
+            SELECT * FROM tb_weichat
+            WHERE openid = '0f0e1f18e62d829b48639262f55970f6' AND deleted = 0
+            LIMIT 1
+        
+
+[2016-12-08 17:08:28]
+INSERT INTO `tb_weichat` SET `openid` = '0f0e1f18e62d829b48639262f55970f6', `nickname` = '未认证用户', `sex` = '未知', `province` = '未知', `city` = '未知', `country` = '未知', `headimgurl` = '未知', `unionid` = NULL, `created` = '2016-12-08 17:08:28'
+
+[2016-12-08 17:08:28]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:28]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:28]
+
+            SELECT * FROM tb_weichat_bind 
+            WHERE weichat_id = '422' AND deleted = 0
+        
+
+[2016-12-08 17:08:28]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:28]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:28]
+
+            SELECT * FROM tb_weichat_bind 
+            WHERE weichat_id = '422' AND deleted = 0 AND usage_type = 
+        21
+
+[2016-12-08 17:08:50]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:08:50]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:08:50]
+INSERT INTO `tb_captcha` SET `phone` = '18980322478', `captcha` = '0938', `created` = '2016-12-08 17:08:50'
+
+[2016-12-08 17:08:50]
+INSERT INTO `tb_sms` SET `phone` = '18980322478', `message` = '您正在做微信和小朋友的绑定，验证码为：0938，10分钟内有效！若非本人操作，请忽略本短信', `created` = '2016-12-08 17:08:50'
+
+[2016-12-08 17:09:22]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = ''
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:22]
+SELECT * FROM tb_user_message WHERE t_uid = '' AND is_read = 0
+
+[2016-12-08 17:09:22]
+SELECT * FROM tb_captcha WHERE deleted = 0 AND phone = '18980322478' AND captcha = '0938'
+
+[2016-12-08 17:09:22]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.phone = '18980322478'
+                
+
+[2016-12-08 17:09:22]
+UPDATE `tb_parent` SET `weichat_id` = '422' WHERE id = '1'
+
+[2016-12-08 17:09:22]
+
+            SELECT * FROM tb_weichat_bind WHERE phone = '18980322478' AND deleted = 0 AND usage_type = '21'
+        
+
+[2016-12-08 17:09:22]
+UPDATE `tb_weichat_bind` SET `weichat_id` = '422' WHERE id = '1' AND deleted = 0
+
+[2016-12-08 17:09:22]
+UPDATE `tb_captcha` SET `deleted` = '1' WHERE id = '429'
+
+[2016-12-08 17:09:22]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:22]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:09:22]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:09:25]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:25]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:09:25]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:09:25]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:09:25]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:25]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:09:25]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:09:31]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:31]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:09:31]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:09:31]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:09:31]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:42]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:42]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:09:42]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:09:42]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:09:42]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:42]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:09:42]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:09:45]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:09:45]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:09:45]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:09:45]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:09:45]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:07]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:07]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:07]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:07]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:07]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:07]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:07]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:26]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:26]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:26]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:26]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:26]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:28]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:28]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:28]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:28]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:28]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:28]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:28]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:30]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:30]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:30]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:30]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_class.start AS class_start, tb_student_parent.relation_id, tb_school_parent.type AS parent_type
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id = '1' AND tb_student.id = '1668'
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0  AND tb_student.id = '1668'
+
+[2016-12-08 17:11:30]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:30]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:30]
+SELECT v FROM tb_system WHERE k = 'WX_JSAPI_TICKET'
+
+[2016-12-08 17:11:30]
+SELECT v FROM tb_system WHERE k = 'WX_ACCESS_TOKEN'
+
+[2016-12-08 17:11:32]
+INSERT INTO tb_system (k, v, updated) VALUES ('WX_ACCESS_TOKEN', 'a:2:{s:12:"access_token";s:138:"A71MetopSzNjC0oy7EOV4XPdw5pYx6KfJWM-B34QhxLr7H7y9aKgzjjThYS7JWAWAPLmApitFf08jW84ByS9MGIojm8PmA08af6rRrXcZm3wtcSP7nOHka_20cpwZH3uQYDbABAEMR";s:10:"expires_in";s:4:"7200";}', '2016-12-08 17:11:30')
+                ON DUPLICATE KEY UPDATE v = 'a:2:{s:12:"access_token";s:138:"A71MetopSzNjC0oy7EOV4XPdw5pYx6KfJWM-B34QhxLr7H7y9aKgzjjThYS7JWAWAPLmApitFf08jW84ByS9MGIojm8PmA08af6rRrXcZm3wtcSP7nOHka_20cpwZH3uQYDbABAEMR";s:10:"expires_in";s:4:"7200";}', updated = '2016-12-08 17:11:30'
+
+[2016-12-08 17:11:32]
+INSERT INTO tb_system (k, v, updated) VALUES ('WX_JSAPI_TICKET', 'a:4:{s:7:"errcode";s:1:"0";s:6:"errmsg";s:2:"ok";s:6:"ticket";s:86:"kgt8ON7yVITDhtdwci0qebjJmM1ZlBUj6GzI210ruSTiY8kHc9j8Gf86q59AtPEhYYoX-IFFhyv6b4pDHBoYMw";s:10:"expires_in";s:10:"1481195492";}', '2016-12-08 17:11:30')
+                ON DUPLICATE KEY UPDATE v = 'a:4:{s:7:"errcode";s:1:"0";s:6:"errmsg";s:2:"ok";s:6:"ticket";s:86:"kgt8ON7yVITDhtdwci0qebjJmM1ZlBUj6GzI210ruSTiY8kHc9j8Gf86q59AtPEhYYoX-IFFhyv6b4pDHBoYMw";s:10:"expires_in";s:10:"1481195492";}', updated = '2016-12-08 17:11:30'
+
+[2016-12-08 17:11:32]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:32]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:32]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:32]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_class.start AS class_start, tb_student_parent.relation_id, tb_school_parent.type AS parent_type
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id = '1' AND tb_student.id = '1668'
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0  AND tb_student.id = '1668'
+
+[2016-12-08 17:11:32]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:32]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:32]
+SELECT v FROM tb_system WHERE k = 'WX_JSAPI_TICKET'
+
+[2016-12-08 17:11:33]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:33]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:33]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:33]
+
+            SELECT tb_student_detection.*
+            FROM tb_student_detection
+            WHERE tb_student_detection.deleted = 0 AND tb_student_detection.first = 1 
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' AND tb_student_detection.created >= '2016-12-01 00:00:00' AND tb_student_detection.created <= '2017-01-01 00:00:00' ORDER BY tb_student_detection.created 
+
+[2016-12-08 17:11:33]
+SELECT  * FROM tb_report_month WHERE student_id = '1668' AND reported >= '2016-12-01 00:00:00' AND reported <=  '2017-01-01 00:00:00' AND NOW() >= end AND deleted = 0 ORDER BY end ASC
+
+[2016-12-08 17:11:35]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:35]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:35]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:35]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:35]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:35]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:35]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:37]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:37]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:37]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:37]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:37]
+SELECT v FROM tb_system WHERE k = 'WX_JSAPI_TICKET'
+
+[2016-12-08 17:11:37]
+SELECT tb_school_parent.*
+                FROM tb_school_parent
+                  WHERE tb_school_parent.deleted = 0 AND tb_school_parent.status = 1 AND tb_school_parent.phone = '18980322478' LIMIT 1
+                
+
+[2016-12-08 17:11:37]
+SELECT tb_school_parent.*, tb_school_parent.created AS parent_created, tb_student_parent.*
+        FROM tb_student_parent
+        LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id
+        WHERE tb_student_parent.deleted = 0 AND tb_student_parent.student_id = '1668' ORDER BY tb_student_parent.relation_id ASC 
+
+[2016-12-08 17:11:37]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:37]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:37]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:37]
+
+            SELECT * FROM tb_school_parent WHERE phone = '18980322478' AND deleted = 0
+            
+
+[2016-12-08 17:11:37]
+SELECT * FROM tb_system_notice WHERE  receive_uid = '1' AND is_read = 0 AND deleted = 0 order by created asc
+
+[2016-12-08 17:11:41]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:41]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:41]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:41]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:41]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:41]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:41]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:50]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:50]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:50]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:50]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_class.start AS class_start, tb_student_parent.relation_id, tb_school_parent.type AS parent_type
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id = '1' AND tb_student.id = '1668'
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0  AND tb_student.id = '1668'
+
+[2016-12-08 17:11:50]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:50]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:50]
+SELECT v FROM tb_system WHERE k = 'WX_JSAPI_TICKET'
+
+[2016-12-08 17:11:52]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:52]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:52]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:52]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:52]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:52]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:52]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:54]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:54]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:54]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:54]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:54]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:54]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:54]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:56]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:56]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:56]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:56]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:56]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:56]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:56]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:58]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:58]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:58]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:11:58]
+SELECT tb_parent.*
+                FROM tb_parent
+                  WHERE tb_parent.deleted = 0 AND tb_parent.status = 1 AND tb_parent.weichat_id = '422'
+                
+
+[2016-12-08 17:11:58]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:58]
+
+            SELECT tb_student_detection.*, tb_file.file_path as file_path
+            FROM tb_student_detection
+            LEFT JOIN tb_file ON  tb_student_detection.file_img_id = tb_file.id  AND tb_file.deleted = 0
+            WHERE tb_student_detection.deleted = 0
+            AND tb_student_detection.`status` = 1 AND tb_student_detection.student_id = '1668' ORDER BY created DESC 
+
+[2016-12-08 17:11:58]
+SELECT * FROM tb_file 
+                WHERE deleted = 0 AND id = ''
+
+[2016-12-08 17:11:59]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:11:59]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:11:59]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:12:01]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:12:01]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:12:01]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+
+[2016-12-08 17:12:01]
+
+            SELECT * FROM tb_weichat_bind 
+            WHERE weichat_id = '422' AND deleted = 0 AND usage_type = 
+        21
+
+[2016-12-08 17:12:01]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_id, tb_school_parent.type AS parent_type, tb_student_parent.qrcode_url
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id IN
+              (
+              SELECT id FROM tb_school_parent WHERE phone = '18980322478'
+              )
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id AND tb_school_parent.deleted = 0
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_student.created DESC
+
+[2016-12-08 17:12:01]
+SELECT * FROM tb_user_message WHERE t_uid = '1' AND is_read = 0
+
+[2016-12-08 17:12:01]
+SELECT * FROM tb_user_message WHERE t_uid = '1668' AND is_read = 0
+

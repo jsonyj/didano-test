@@ -1,0 +1,94 @@
+<?php
+
+class DownimgController extends AppController {
+
+	var $DownimgModel = null;
+	var $StudentModel = null;
+	var $versionModel = null;
+
+	function DownimgController() {
+        $this->AppController();
+        $this->DownimgModel = $this->getModel('Downimg');
+        $this->StudentModel = $this->getModel('Student');
+        $this->versionModel = $this->getModel('Version');
+    }
+
+    function testAction(){
+    	// $school_id = $_POST['school_id'];
+    	$school_id = $_GET['id'];
+    	$rs = $this->DownimgModel -> getSchoolDownimgList($sh,$school_id);
+    	foreach ($rs as $key => $value) {
+    		$student_id[] = $value['student_id'];
+    	}
+    	$student_id = $this->DownimgModel -> formatArray($student_id);
+    	foreach ($student_id as $value) {
+    		$re[] = $this->DownimgModel -> getStudentDownimgList($sh,$value,$school_id);
+    	}
+    	$i = null;
+    	foreach ($re as $key => $value) {
+    		$array=explode('.',$value[$key]['org_img_url' ]);
+    		$array[0] = $value[$key]['org_img_url' ].$i++;
+    		$value[$key]['org_img_url' ] = implode('.',$array);
+    	}
+    	foreach ($re as $key => $value) {
+    		foreach ($value as $key1 => $value1) {
+    			$url = APP_RESOURCE_ROOT . $value1['org_img_url'];
+    			$save_path = 'C:\Users\admin\Desktop' . DS . $value1['student_id'];
+    			// $save_path = $_POST['save_path'] . DS . $value1['student_id'];
+    			$this->DownimgModel -> getImage($url,$save_dir = $save_path,$filename='',$type=0);
+    		}
+    	}
+    }
+
+    function indexAction(){
+    	$schoolList = $this->versionModel -> getSchoolList();
+    	$this->view->assign('schoolList', $schoolList);
+    	// $this->view->layout();
+    }
+
+    function downImgAction(){
+        $school_id = $this->get('id');
+        $save_path_dir = 'C:\Users\admin\Desktop\downimg';
+        if(!is_dir($save_path_dir))
+            {
+                mkdir($save_path_dir,0777,true);
+            }
+    	$school_id = $_GET['id'];
+
+        var_dump($school_id);
+    	$school_id = $_GET['id'];
+    	$rs = $this->DownimgModel -> getSchoolDownimgList($sh,$school_id);
+    	foreach ($rs as $key => $value) {
+    		$student_id[] = $value['student_id'];
+    	}
+    	$student_id = $this->DownimgModel -> formatArray($student_id);
+    	foreach ($student_id as $value) {
+    		$re[] = $this->DownimgModel -> getStudentDownimgList($sh,$value,$school_id);
+    	}
+    	$i = null;
+    	foreach ($re as $key => $value) {
+    		$array=explode('.',$value[$key]['org_img_url' ]);
+    		$array[0] = $value[$key]['org_img_url' ].$i++;
+    		$value[$key]['org_img_url' ] = implode('.',$array);
+    	}
+    	foreach ($re as $key => $value) {
+    		foreach ($value as $key1 => $value1) {
+    			$url = APP_RESOURCE_ROOT . $value1['org_img_url'];
+    			// $save_path = $_POST['save_path'] . DS . $value1['student_id'];
+                $save_path = $save_path_dir . DS . $value1['student_id'];
+    			$down_true = $this->DownimgModel -> getImage($url,$save_dir = $save_path,$filename='',$type=0);
+    		}
+    	}
+        if ($down_true) {
+           $this->redirect("?c=downimg&a=index", true, '导出成功');
+        }
+    }
+
+
+
+
+
+
+
+
+}

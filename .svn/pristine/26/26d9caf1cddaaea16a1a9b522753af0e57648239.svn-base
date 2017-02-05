@@ -1,0 +1,99 @@
+<?php
+
+class VersionController extends AppController {
+
+    var $versionModel = null;
+
+    function VersionController() {
+        $this->AppController();
+        $this->versionModel = $this->getModel('Version');
+    }
+// 各个学校历史版本     
+    function indexAction(){
+        $upload_path = "http://" . $_SERVER['HTTP_HOST'] . "/res";
+        $sh = $this->get('sh');
+        $this->view->assign('sh', $sh);
+        $versionList = $this->versionModel->getVersionList($sh);
+        $this->view->assign('upload_path', $upload_path);
+        $this->view->assign('paging', $this->versionModel->paging);
+        $this->view->assign('versionList', $versionList);
+        $this->view->layout();
+        
+    }
+// 新增上传，编辑上传
+    function inputAction(){
+        $id = $this->get('id');
+        $request = $this->post('form');
+        if ($this->isComplete()) {
+            if($request['branch_id']>0){
+                $upload_path = APP_RESOURCE_ROOT . 'upload/version/branch/';
+            }else{
+                $upload_path = APP_RESOURCE_ROOT . 'upload/version/main';
+            }
+            $newFileName = $_FILES["file"]["name"];
+            $newFile = $upload_path . $newFileName;
+            if(!is_dir($upload_path))
+                {
+                    mkdir($upload_path,0777,true);
+                }
+            if (file_exists($newFile))
+            {
+                $newFileName = date('Ymdhis') . $_FILES["file"]["name"] ;
+                $newFile = $upload_path . $newFileName;
+            }
+            move_uploaded_file($_FILES["file"]["tmp_name"],$newFile);
+            
+            $form = array(
+                "id" => $request['id'],
+                "branch_id" => $request['branch_id'],
+                "model_no" => $request['model_no'],
+                "version_des" => $request['version_des'],
+                "device_type" => $request['device_type'],
+                );
+            if($form['branch_id'] > 0){
+                $branch_url = 'upload/version/branch/' . $newFileName;
+                $form['version_url'] = $branch_url;
+                $form['branch_version'] = $request['branch_version'];
+            }
+            else{
+                $main_url = 'upload/version/main/' . $newFileName;
+                $form['version_url'] = $main_url;
+                $form['main_version'] = $request['main_version'];
+            }
+            if ($id > 0) {
+                $form['id'] = $id;
+                $this->view->assign('form', $form);
+                if($this->versionModel -> insertVerion($form)){
+                    $this->redirect("?c=version&a=index", true, '上传成功');
+                    exit;
+                }
+            }else{
+                if($this->versionModel -> insertVerion($form)){
+                    $this->redirect("?c=version&a=index", true, '上传成功');
+                    exit;
+                }
+            }
+        }
+<<<<<<< .mine
+||||||| .r5992
+        $this->view->layout();
+=======
+    }
+    function inputAction(){
+        $this->view->layout();
+>>>>>>> .r6165
+    }
+// 删除
+    function deleteAction(){
+        $id = $this->get('id');
+        $this->versionModel->deteleVersion($id);
+        $this->redirect("?c=version&a=index", true, '删除成功');
+    }
+
+    function test3Action(){
+        // $all = " null";
+        // echo $this->versionModel->test($all);
+        var_dump($_SERVER);
+    }
+//***结束分割线***//
+}

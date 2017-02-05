@@ -1,0 +1,73 @@
+[2017-01-17 11:53:15]
+
+            SELECT tb_parent.*, tb_school.title AS school_title, tb_school.phone AS phones, tb_class.title AS class_title, tb_student_parent.relation_id
+            FROM tb_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.parent_id = tb_parent.id AND tb_student_parent.student_id = '1670'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_parent.created DESC 
+
+[2017-01-17 12:13:52]
+
+            SELECT tb_parent.*, tb_school.title AS school_title, tb_school.phone AS phone, tb_class.title AS class_title, tb_student_parent.relation_id
+            FROM tb_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = '1670'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_parent.created DESC 
+
+[2017-01-17 12:15:41]
+
+            SELECT tb_parent.*, tb_school.title AS school_title, tb_school.phone AS phones, tb_class.title AS class_title, tb_student_parent.relation_id
+            FROM tb_parent
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = '1670'
+            LEFT JOIN tb_student ON tb_student.id = tb_student_parent.student_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_parent.deleted = 0 AND tb_student_parent.deleted = 0 ORDER BY tb_parent.created DESC 
+
+[2017-01-17 12:24:46]
+
+            SELECT * FROM tb_student
+            LEFT JOIN tb_school_parent ON tb_student_parent.school_id = tb_school_parent.school_id
+            LEFT JOIN tb_student_parent ON tb_student.id = tb_student_parent.student_id AND tb_student=1670
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student_parent.deleted = 0 AND tb_student.deleted = 0
+
+[2017-01-17 12:25:15]
+
+            SELECT * FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student.id = tb_student_parent.student_id AND tb_student=1670
+            LEFT JOIN tb_school_parent ON tb_student_parent.school_id = tb_school_parent.school_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student_parent.deleted = 0 AND tb_student.deleted = 0
+
+[2017-01-17 12:25:33]
+
+            SELECT * FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student.id = tb_student_parent.student_id AND tb_student.id=1670
+            LEFT JOIN tb_school_parent ON tb_student_parent.school_id = tb_school_parent.school_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student_parent.deleted = 0 AND tb_student.deleted = 0
+
+[2017-01-17 12:26:20]
+
+            SELECT * FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student.id = tb_student_parent.student_id AND tb_student.id=1670
+            LEFT JOIN tb_school_parent ON tb_student_parent.school_id = tb_school_parent.school_id
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student_parent.deleted = 0 AND tb_student.deleted = 0
+
+[2017-01-17 13:45:39]
+
+            SELECT tb_student.`name`,tb_student_parent.relation_title,tb_school_parent.phone FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id
+            LEFT JOIN tb_school_parent ON tb_school_parent.id = tb_student_parent.parent_id
+            WHERE tb_student.id = 1670 AND tb_student.deleted = 0
+

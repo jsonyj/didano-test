@@ -1,0 +1,97 @@
+<?php
+
+class VersionController extends AppController {
+
+    var $versionModel = null;
+
+    function VersionController() {
+        $this->AppController();
+        $this->versionModel = $this->getModel('Version');
+    }
+
+	function testAction()
+    {
+    	echo APP_RESOURCE_ROOT ;
+    }
+// 上传文件
+    
+    function indexAction(){
+        $upload_path = "http://www.didano.cn/res";
+        $getVersionList = $this->versionModel -> getVersionList();
+        foreach ($getVersionList as $key => $value) {
+            $getVersionList[$key]['version_url' ] = $upload_path . DS . $value['version_url'];
+            switch ($value['version_device' ]) {
+                case '1':
+                    $getVersionList[$key]['version_device' ] = "robot_android";
+                    break;
+                case '2':
+                    $getVersionList[$key]['version_device' ] = "robot_linux";
+                    break;
+                case '3':
+                    $getVersionList[$key]['version_device' ] = "gates_linux";
+                    break;
+                
+                default:
+                    $getVersionList[$key]['version_device' ] = "目标系统";
+                    break;
+            }
+            if($value['version_device_no'] == 0){
+                $getSchoolList = $this->versionModel -> getSchoolList();
+                foreach ($getSchoolList as $key1 => $value1) {
+                    $reques[$key1] = $getVersionList[$key];
+                    $reques[$key1]['school_name' ] = $value1['title' ];
+                }
+            }
+            else
+            {
+                $array=explode(',',$value['version_device_no']); 
+                foreach ($array as $key2 => $value2) {
+                    $getDeviceList = $this->versionModel -> getDeviceList($value2);
+                    $request[$key2] = $getVersionList[$key];
+                    $request[$key2]['school_name' ] = $getDeviceList['school_name' ];
+                }
+            }
+            $schoolVersionList = array_merge($reques,$request);
+        }
+        // var_dump($schoolVersionList);
+        // $this->view->assign('paging',$this->schoolModel->paging);
+        $this->view->assign('schoolList', $schoolList);
+        $this->view->layout();
+    }
+
+    function inputFileAction() {
+        $upload_path = APP_RESOURCE_ROOT . 'upload/version/';
+        if(!is_dir($upload_path))
+            {
+                mkdir($upload_path,0777,true);
+            }
+        if (file_exists($upload_path . $_FILES["file"]["name"]))
+        {
+          $this->redirect("?c=version&a=input", true, '上传失败');
+          exit;
+        }
+        else
+        {
+          move_uploaded_file($_FILES["file"]["tmp_name"],$upload_path . $_FILES["file"]["name"]);
+          $version_url = 'upload/version/' . $_FILES["file"]["name"];
+            $form = array(
+                "version_device" => $_POST['version_device'],
+                "version_device_no" => $_POST['version_device_no'],
+                "version_no" => $_POST['version_no'],
+                "version_url" => $version_url,
+                "version_details" => $_POST['version_details'],
+                );
+            if($this->versionModel -> insertVerion($form)){
+                $this->redirect("?c=version&a=index", true, '上传成功');
+                exit;
+            }
+        }
+    }
+
+    function inputAction(){
+        $form = $this->post('form');
+        var_dump($form);
+        $this->view->layout();
+    }
+
+}

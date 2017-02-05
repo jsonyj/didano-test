@@ -1,0 +1,204 @@
+[2017-01-18 11:46:48]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 11:46:51]
+Array
+(
+    [id] => 1680
+    [name] => 小熙
+    [gender] => 2
+    [birthday] => 2017-01-17
+    [class_id] => 37
+    [school_id] => 4
+    [parent_list] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+
+[2017-01-18 11:46:53]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 11:46:58]
+Array
+(
+    [id] => 1680
+    [name] => 小熙
+    [gender] => 2
+    [birthday] => 2017-01-17
+    [class_id] => 37
+    [school_id] => 4
+    [parent_list] => Array
+        (
+            [0] => 1
+            [1] => Array
+                (
+                    [relation_id] => 2
+                    [relation_title] => 
+                    [phone] => 13685900001
+                )
+
+            [2] => 
+        )
+
+)
+
+
+[2017-01-18 11:47:00]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 11:53:50]
+Array
+(
+    [id] => 1680
+    [name] => 小熙
+    [gender] => 2
+    [birthday] => 2017-01-17
+    [class_id] => 37
+    [school_id] => 4
+    [parent_list] => Array
+        (
+            [0] => 1
+            [1] => Array
+                (
+                    [relation_id] => 1
+                    [relation_title] => 
+                    [phone] => 13685900001
+                )
+
+            [2] => 
+        )
+
+)
+
+
+[2017-01-18 11:55:34]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 11:55:42]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 11:55:48]
+Array
+(
+    [id] => 1680
+    [name] => 小熙
+    [gender] => 2
+    [birthday] => 2017-01-17
+    [class_id] => 37
+    [school_id] => 4
+    [parent_list] => Array
+        (
+            [0] => 1
+            [1] => Array
+                (
+                    [relation_id] => 1
+                    [relation_title] => 
+                    [phone] => 13685900001
+                )
+
+            [2] => 
+        )
+
+)
+
+
+[2017-01-18 11:55:50]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 12:12:02]
+Array
+(
+    [school_id] => 4
+    [parent_list] => 
+)
+
+
+[2017-01-18 12:12:28]
+Array
+(
+    [name] => 1111
+    [gender] => 1
+    [birthday] => 2017-01-11
+    [class_id] => 38
+    [status] => 1
+    [school_id] => 4
+    [parent_list] => Array
+        (
+            [0] => Array
+                (
+                    [relation_id] => 2
+                    [relation_title] => 
+                    [phone] => 13685900001
+                    [id] => 
+                )
+
+            [1] => Array
+                (
+                    [relation_id] => 1
+                    [relation_title] => 
+                    [phone] => 13685900002
+                    [id] => 
+                )
+
+            [2] => Array
+                (
+                    [relation_id] => 3
+                    [relation_title] => 
+                    [phone] => 13685900003
+                    [id] => 
+                )
+
+            [3] => Array
+                (
+                    [relation_id] => 4
+                    [relation_title] => 
+                    [phone] => 13685900004
+                    [id] => 
+                )
+
+            [4] => Array
+                (
+                    [relation_id] => 5
+                    [relation_title] => 
+                    [phone] => 13685900005
+                    [id] => 
+                )
+
+        )
+
+)
+
+

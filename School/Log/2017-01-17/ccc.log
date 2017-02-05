@@ -1,0 +1,41 @@
+[2017-01-17 15:44:47]
+Array
+(
+    [id] => 1680
+    [name] => 小熙
+    [gender] => 2
+    [birthday] => 2017-01-17
+    [class_id] => 37
+    [parent_list] => Array
+        (
+            [0] => 1
+            [1] => Array
+                (
+                    [relation_id] => 1
+                    [relation_title] => 
+                    [phone] => 15252525454
+                )
+
+            [2] => 
+            [3] => Array
+                (
+                    [relation_id] => 99
+                    [relation_title] => 舅舅
+                    [phone] => 15353536363
+                )
+
+            [4] => 
+        )
+
+    [school_id] => 4
+)
+
+
+[2017-01-17 15:44:49]
+Array
+(
+    [parent_list] => 
+    [school_id] => 4
+)
+
+

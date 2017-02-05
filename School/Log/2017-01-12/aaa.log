@@ -1,0 +1,39 @@
+[2017-01-12 14:39:05]
+Mutex Object
+(
+    [writeablePath] => C:\Windows\Temp
+    [lockName] => schooldminavetudentarent
+    [fileHandle] => 
+)
+
+
+[2017-01-12 14:40:18]
+Mutex Object
+(
+    [writeablePath] => C:\Windows\Temp
+    [lockName] => schooldminavetudentarent
+    [fileHandle] => 
+)
+
+
+[2017-01-12 14:40:46]
+Mutex Object
+(
+    [writeablePath] => C:\Windows\Temp
+    [lockName] => schooldminavetudentarent
+    [fileHandle] => 
+)
+
+
+[2017-01-12 14:42:39]
+Mutex Object
+(
+    [writeablePath] => C:\Windows\Temp
+    [lockName] => schooldminavetudentarent
+    [fileHandle] => Resource id #50
+)
+
+
+[2017-01-12 14:42:39]
+1
+

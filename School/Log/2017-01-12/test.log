@@ -1,0 +1,132 @@
+[2017-01-12 12:16:16]
+Array
+(
+    [id] => 4
+    [school_id] => 4
+    [name] => 超级管理员
+    [login] => admin
+    [password] => 21232f297a57a5a743894a0e4a801fc3
+    [status] => 1
+    [created] => 2016-03-28 09:19:52
+    [updated] => 2017-01-11 09:45:54
+    [deleted] => 0
+    [school_title] => 龙腾幼稚园
+    [school_phone] => 18508148488
+    [school_address] => 龙腾东路
+)
+
+
+[2017-01-12 12:16:16]
+Array
+(
+)
+
+
+[2017-01-12 12:16:16]
+Array
+(
+    [1] => Array
+        (
+            [value] => 1
+            [name] => 爸爸
+        )
+
+    [2] => Array
+        (
+            [value] => 2
+            [name] => 妈妈
+        )
+
+    [3] => Array
+        (
+            [value] => 3
+            [name] => 爷爷
+        )
+
+    [4] => Array
+        (
+            [value] => 4
+            [name] => 奶奶
+        )
+
+    [5] => Array
+        (
+            [value] => 5
+            [name] => 外公
+        )
+
+    [6] => Array
+        (
+            [value] => 6
+            [name] => 外婆
+        )
+
+)
+
+
+[2017-01-12 12:16:47]
+Array
+(
+    [id] => 4
+    [school_id] => 4
+    [name] => 超级管理员
+    [login] => admin
+    [password] => 21232f297a57a5a743894a0e4a801fc3
+    [status] => 1
+    [created] => 2016-03-28 09:19:52
+    [updated] => 2017-01-11 09:45:54
+    [deleted] => 0
+    [school_title] => 龙腾幼稚园
+    [school_phone] => 18508148488
+    [school_address] => 龙腾东路
+)
+
+
+[2017-01-12 12:16:47]
+Array
+(
+)
+
+
+[2017-01-12 12:16:47]
+Array
+(
+    [1] => Array
+        (
+            [value] => 1
+            [name] => 爸爸
+        )
+
+    [2] => Array
+        (
+            [value] => 2
+            [name] => 妈妈
+        )
+
+    [3] => Array
+        (
+            [value] => 3
+            [name] => 爷爷
+        )
+
+    [4] => Array
+        (
+            [value] => 4
+            [name] => 奶奶
+        )
+
+    [5] => Array
+        (
+            [value] => 5
+            [name] => 外公
+        )
+
+    [6] => Array
+        (
+            [value] => 6
+            [name] => 外婆
+        )
+
+)
+
+

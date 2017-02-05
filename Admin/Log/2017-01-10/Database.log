@@ -1,0 +1,113 @@
+[2017-01-10 16:13:01]
+
+            SELECT * FROM tb_admin 
+            WHERE login = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' AND deleted = 0
+            LIMIT 1
+        
+
+[2017-01-10 16:13:05]
+SELECT COUNT(*) FROM tb_device
+            LEFT JOIN tb_school ON tb_device.school_id = tb_school.id
+            WHERE tb_device.deleted = 0 ORDER BY tb_device.created DESC 
+
+[2017-01-10 16:13:05]
+
+            SELECT tb_device.*, tb_school.title AS school_title
+            FROM tb_device
+            LEFT JOIN tb_school ON tb_device.school_id = tb_school.id
+            WHERE tb_device.deleted = 0 ORDER BY tb_device.created DESC LIMIT 0,50
+
+[2017-01-10 16:13:08]
+SELECT COUNT(*) FROM tb_class
+            LEFT JOIN tb_school ON tb_school.id = tb_class.school_id
+            WHERE tb_class.deleted = 0 ORDER BY tb_class.created DESC 
+
+[2017-01-10 16:13:08]
+
+            SELECT tb_class.*, tb_school.title AS school_title
+            FROM tb_class
+            LEFT JOIN tb_school ON tb_school.id = tb_class.school_id
+            WHERE tb_class.deleted = 0 ORDER BY tb_class.created DESC LIMIT 0,10
+
+[2017-01-10 16:13:11]
+
+            SELECT COUNT(tb_school_parent.id)
+            FROM tb_school_parent
+            WHERE tb_school_parent.deleted = 0 
+
+[2017-01-10 16:13:11]
+
+            SELECT tb_school_parent.*, tb_school.title AS school_title
+            FROM tb_school_parent
+            LEFT JOIN tb_school ON tb_school_parent.school_id = tb_school.id
+            WHERE tb_school_parent.deleted = 0 LIMIT 0,10
+
+[2017-01-10 16:13:11]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title, tb_school_parent.type AS parent_type
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id = '1'
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIn tb_school_parent ON tb_school_parent.school_id = tb_school.id AND tb_school_parent.id = '1'
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 AND tb_student.school_id = '1' ORDER BY tb_student.created DESC
+
+[2017-01-10 16:13:11]
+
+            SELECT tb_student.*, tb_school.title AS school_title, tb_class.title AS class_title, tb_student_parent.relation_title, tb_school_parent.type AS parent_type
+            FROM tb_student
+            LEFT JOIN tb_student_parent ON tb_student_parent.student_id = tb_student.id AND tb_student_parent.parent_id = '2'
+            LEFT JOIN tb_school ON tb_school.id = tb_student.school_id
+            LEFT JOIn tb_school_parent ON tb_school_parent.school_id = tb_school.id AND tb_school_parent.id = '2'
+            LEFT JOIN tb_class ON tb_class.id = tb_student.class_id
+            WHERE tb_student.deleted = 0 AND tb_student_parent.deleted = 0 AND tb_student.school_id = '5' ORDER BY tb_student.created DESC
+
+[2017-01-10 16:13:13]
+
+                SELECT COUNT(*) FROM tb_help
+                WHERE deleted = 0
+            
+
+[2017-01-10 16:13:13]
+
+            SELECT * FROM tb_help
+            WHERE deleted = 0
+         ORDER BY tb_help.created DESC LIMIT 0,10
+
+[2017-01-10 16:13:14]
+
+                SELECT COUNT(*) FROM tb_help
+                WHERE deleted = 0
+            
+
+[2017-01-10 16:13:14]
+
+            SELECT * FROM tb_help
+            WHERE deleted = 0
+         ORDER BY tb_help.created DESC LIMIT 0,10
+
+[2017-01-10 16:13:16]
+
+                SELECT COUNT(*) FROM tb_branch
+                WHERE deleted = 0
+            
+
+[2017-01-10 16:13:16]
+
+            SELECT * FROM `tb_branch` WHERE deleted = 0  
+             ORDER BY tb_branch.created DESC LIMIT 0,10
+
+[2017-01-10 16:13:18]
+SELECT COUNT(*) FROM tb_version
+            LEFT JOIN tb_branch ON tb_version.branch_id = tb_branch.id
+            WHERE tb_version.deleted = 0 AND tb_branch.deleted = 0
+             ORDER BY tb_version.created DESC 
+
+[2017-01-10 16:13:18]
+
+            SELECT tb_version.*, tb_branch.branch_name AS branch_name
+            FROM tb_version
+            LEFT JOIN tb_branch ON tb_version.branch_id = tb_branch.id
+            WHERE tb_version.deleted = 0 AND tb_branch.deleted = 0
+             ORDER BY tb_version.created DESC LIMIT 0,10
+
